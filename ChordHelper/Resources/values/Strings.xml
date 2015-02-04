@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">ChordHelper</string>
+	<!--- spinner prompt only for use with spinner as dialog, not as drop down -->
+	<string-array name="roots">
+		<item>C</item>
+		<item>D</item>
+		<item>E</item>
+		<item>F</item>
+		<item>G</item>
+		<item>A</item>
+		<item>B</item>
+	</string-array>
+</resources>

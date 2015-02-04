@@ -1,0 +1,7 @@
+ChordHelper.MainActivity;chordhelper.MainActivity
+ChordHelper.ChordGeneratorFragment;chordhelper.ChordGeneratorFragment
+ChordHelper.ChordTrainerFragment;chordhelper.ChordTrainerFragment
+ChordHelper.SettingsActivity;chordhelper.SettingsActivity
+ChordHelper.SettingsFragment;chordhelper.SettingsFragment
+ChordHelper.AboutActivity;chordhelper.AboutActivity
+ChordHelper.AboutFragment;chordhelper.AboutFragment

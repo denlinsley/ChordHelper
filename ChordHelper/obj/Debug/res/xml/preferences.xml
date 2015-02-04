@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory 
+        android:title="select triads to spell"
+        android:key="triads_settings">
+		<CheckBoxPreference
+			android:key="select_major_triads"
+			android:title="Major Triads"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="select_minor_triads"
+			android:title="Minor Triads"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="select_augmented_triads"
+			android:title="Augmented Triads"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="select_diminished_triads"
+			android:title="Diminished Triads"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+	<PreferenceCategory 
+        android:title="select sevenths to spell"
+        android:key="sevenths_settings">
+		<CheckBoxPreference
+			android:key="select_major_sevenths"
+			android:title="Major Sevenths"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="select_minor_sevenths"
+			android:title="Minor Sevenths"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="select_dominant_sevenths"
+			android:title="Dominant Sevenths"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="select_half_diminished_sevenths"
+			android:title="Half-Diminished Sevenths"
+			android:defaultValue="true" />
+		<CheckBoxPreference
+			android:key="select_fully_diminished_sevenths"
+			android:title="Fully-Diminished Sevenths"
+			android:defaultValue="true" />
+	</PreferenceCategory>
+
+</PreferenceScreen>

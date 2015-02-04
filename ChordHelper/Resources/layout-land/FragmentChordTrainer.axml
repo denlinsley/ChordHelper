@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ce2a8ed1">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Get New Chord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newChordButton"
+            android:layout_margin="10dp"
+            android:layout_weight="1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/newChordTextView"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:textSize="20sp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1"
+        android:layout_gravity="center"
+        android:layout_margin="5dp">
+        <Button
+            android:text="C"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/cButton"
+            style="@style/NoteButton" />
+        <Button
+            android:text="D"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/dButton"
+            style="@style/NoteButton" />
+        <Button
+            android:text="E"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/eButton"
+            style="@style/NoteButton" />
+        <Button
+            android:text="F"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/fButton"
+            style="@style/NoteButton" />
+        <Button
+            android:text="G"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/gButton"
+            style="@style/NoteButton" />
+        <Button
+            android:text="A"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/aButton"
+            style="@style/NoteButton" />
+        <Button
+            android:text="B"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/bButton"
+            style="@style/NoteButton" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout3"
+        android:layout_gravity="center"
+        android:layout_margin="5dp">
+        <Button
+            android:text="# (sharp)"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/sharpButton"
+            android:layout_weight="1"
+            style="@style/AccidentalButton" />
+        <Button
+            android:text="b (flat)"
+            android:id="@+id/flatButton"
+            style="@style/AccidentalButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout5">
+        <TextView
+            android:id="@+id/resultTextView"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/white" />
+        <TextView
+            android:id="@+id/spellingTextView"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/dummyTextView"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4"
+        android:layout_gravity="center"
+        android:layout_margin="10dp">
+        <Button
+            android:text="Check Spelling"
+            android:id="@+id/checkSpellingButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <Button
+            android:text="Try Again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tryAgainButton"
+            android:layout_weight="1" />
+        <Button
+            android:text="Show Answer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/showAnswerButton"
+            android:layout_weight="1" />
+    </LinearLayout>
+</LinearLayout>
